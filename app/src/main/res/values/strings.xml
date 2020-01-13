@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">IT-Cube  В.Новгород</string>
+
+    <string name="txtWelcome"> Программируй своё будущее с нами!</string>
+    <string name="btnEduProgramms">ОБРАЗОВАТЕЛЬНЫЕ ПРОГРАММЫ</string>
+    <string name="btnTeachers">ПРЕПОДАВАТЕЛЬСКИЙ СОСТАВ</string>
+
+    <string name="txtContacts">Наши контакты и соцсети:</string>
+    <string name="txtAddress">Адрес: ул. Б. Московская, д. 126, корп. 3, эт. 3</string>
+    <string name="txtPhone">Телефон: 8 (8162) 33-36-76</string>
+
+    <string name="uriVk">http://www.vk.com/itcubevn</string>
+    <string name="uriInstagram">https://www.instagram.com/itcubevn/</string>
+    <string name="uriSchool">https://3653.ru/itcube/</string>
+
+    <string name="txtEduProgramms"> Образовательные программы нашего центра: </string>
+    <string name="txtTeachers"> Преподаватели нашего центра: </string>
+
+</resources>

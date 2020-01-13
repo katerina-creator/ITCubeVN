@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txtWelcome"
+        android:textColor="#1C75BC"
+        android:textSize="18sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <FrameLayout
+
+       android:id="@+id/frm_Button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/txtWelcome"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_Programms"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#802196F3"
+            android:text="@string/btnEduProgramms"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_Teachers"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:background="#802196F3"
+            android:text="@string/btnTeachers"
+            android:textStyle="bold" />
+   </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imgvw_Logo"
+        android:layout_width="386dp"
+        android:layout_height="332dp"
+        android:src="@drawable/logo" />
+
+    <FrameLayout
+        android:id="@+id/frm_Contacts"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvw_Logo"
+        app:layout_constraintVertical_bias="0.6"
+        app:layout_optimizationLevel="groups">
+
+        <TextView
+            android:id="@+id/txt_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="@string/txtContacts"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_address"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/txtAddress" />
+
+        <TextView
+            android:id="@+id/txt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="60dp"
+            android:textColor="#3D5AFE"
+            android:gravity="center"
+            android:text="@string/txtPhone" />
+
+        <FrameLayout
+            android:id="@+id/frm_Icons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp">
+
+
+            <ImageView
+                android:id="@+id/imgvw_Instagram"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/icon_instagram" />
+
+            <ImageView
+                android:id="@+id/imgvw_VK"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/icon_vk" />
+
+            <ImageView
+                android:id="@+id/imgvw_Site"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="190dp"
+                android:layout_marginLeft="180dp"
+                app:srcCompat="@drawable/icon_school"
+                android:src="@drawable/icon_school" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
