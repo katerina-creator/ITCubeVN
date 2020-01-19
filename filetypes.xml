@@ -1,0 +1,8 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="db" type="PLAIN_TEXT" />
+      <mapping pattern="activity_listprogramm" type="XML" />
+    </extensionMap>
+  </component>
+</application>
