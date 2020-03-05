@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.it_cube_app">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SchoolActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="https://3653.ru/itcube/"
+                    android:pathPrefix="/School"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InstagramActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="instagram.com/itcubevn/"
+                    android:pathPrefix="/Instagram"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VkActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="vk.com/itcubevn"
+                    android:pathPrefix="/VK"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TeachersActivity">  </activity>
+        <activity android:name=".TeacherPortfolioActivity">  </activity>
+        <activity android:name=".EduProgActivity">  </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
