@@ -10,6 +10,14 @@
           <option name="url" value="https://github.com/DroidsOnRoidsPlayground/android-from-the-very-beginning-2-chat.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/katerina-creator/ItCube_VN.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/katerina-creator/ITCubeVN.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Admin\AndroidStudioProjects" />
