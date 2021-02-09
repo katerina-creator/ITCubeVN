@@ -18,6 +18,10 @@
           <option name="url" value="https://github.com/katerina-creator/ITCubeVN.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/myitschool-book/3.7_exercises.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Admin\AndroidStudioProjects" />
