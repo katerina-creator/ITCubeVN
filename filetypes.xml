@@ -1,6 +1,8 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="Draw" type="CLASS" />
+      <mapping ext="webp" type="Image" />
       <mapping ext="db" type="PLAIN_TEXT" />
       <mapping pattern="activity_listprogramm" type="XML" />
     </extensionMap>
