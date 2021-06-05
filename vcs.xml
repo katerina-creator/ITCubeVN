@@ -26,6 +26,10 @@
           <option name="url" value="https://github.com/Dapro001e21/QibChat.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/DestKoder/SamsungProject.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Admin\AndroidStudioProjects" />
